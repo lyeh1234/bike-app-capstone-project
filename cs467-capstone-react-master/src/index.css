@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+
+body {
+  margin: 0;
+  
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.hero-image {
+  background: url('components/images/bike_xl.jpg') ;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  object-fit: contain;
+  margin-top: -10px;
+}
+.dark {
+  background-color: #263238 ;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  object-fit: contain;
+  margin-top: -10px;
+}
+.hero-text {
+  text-align: center;
+  position: absolute;
+  top: 65%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #f9f9f9;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+}
+
+.hero-text >h2 {
+  font-size: 70px;
+  margin-bottom: 5px;
+}
+
+.hero-text >h1 {
+  padding-top: 0px;
+  margin-top: 5px;
+  font-size: 100px;
+}
+
+@media screen and (max-width: 960px) {
+  .hero-text > h1 {
+    font-size: 65px;
+  }
+  .hero-text > h2 {
+    font-size: 45px;
+  }
+}
+
+@media screen and (max-width: 780px) {
+  .hero-text > h1 {
+    font-size: 50px;
+  }
+  .hero-text > h2 {
+    font-size: 35px;
+  }
+}
+
+
