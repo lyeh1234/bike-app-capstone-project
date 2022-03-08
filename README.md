@@ -4,7 +4,7 @@ Project consists of two folders - Frontend (React) and Backend (Python-Flask & G
 Note - ReadMe instructions are for the Frontend portion of the project
 
 
- \
+
 
 
 # Getting Started with Create React App
