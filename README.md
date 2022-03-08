@@ -1,3 +1,8 @@
+Project Overview:
+
+Split the project into two folders - Frontend (React) and Backend (Python-Flask & Google Cloud Datastore)
+ReadMe instructions are for the Frontend
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
